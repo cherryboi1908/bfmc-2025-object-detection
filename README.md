@@ -21,4 +21,4 @@ Used Bosch Future Mobility Challenge Traffic Data including 13 classes as:
 + pedestrian
 + priority
 # Install Library 
-``` pip install -r requirements.txt```
+```bash pip install -r requirements.txt```
