@@ -5,25 +5,11 @@ from ultralytics import YOLO  # Import YOLO from ultralytics
 import os
 import onnxruntime as ort
 
-# print(ort.get_device())
-# print(torch.version.cuda)  # Check PyTorch v
-# print(torch.cuda.is_available())
-# print(torch.cuda.device_count())
-# print(torch.cuda.get_device_name(0))
-# print(ort.__version__)
-# print(ort.get_available_providers())
 
-# session = ort.InferenceSession("D:\\pleizsonoob\\Others\\bfmc\\dataset\\model.onnx", providers=['CUDAExecutionProvider'])
-# print(session.get_providers())
-
-
-# model = YOLO('D:\pleizsonoob\Others\\bfmc\dataset\\best.pt')
-#   # Load model
-# model.export(format="onnx", imgsz=640, opset=12)
-onnx_model = YOLO('D:\pleizsonoob\Others\\bfmc\dataset\\best.onnx')
+onnx_model = YOLO(r'{your_path}\\best.onnx')
 
 ## Process the outputs according to your model's specific output format
-images_path = r'D:\pleizsonoob\Others\bfmc\dataset\obdet_v23_1\train\images'
+images_path = r'{your_path}\dataset\obdet_v23_1\train\images'
 
 for filename in os.listdir(images_path):
     if filename.endswith('.jpg'):
