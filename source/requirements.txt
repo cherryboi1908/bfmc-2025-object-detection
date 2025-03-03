@@ -1,0 +1,15 @@
+
+numpy == 1.26.2
+onnx == 1.15.0
+onnxruntime == 1.20.1
+onnxruntime-gpu==1.20.1
+opencv-python==4.11.0.86
+pandas==2.2.3
+pillow == 10.2.0
+torch==2.2.2
+torchaudio==2.2.2
+torchvision==0.17.2
+tqdm==4.67.1
+tzdata==2025.1
+ultralytics==8.3.78
+ultralytics-thop==2.0.14
