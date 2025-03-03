@@ -1,7 +1,7 @@
-## bfmc-2025-object-detection
+# bfmc-2025-object-detection
 Data processing and training the object detection model using YOLOv12
-## Getting Started
-# Requirements: 
+# Getting Started
+## Requirements: 
 + Python >= 3.11
 + onnx >= 1.15
 + pandas
