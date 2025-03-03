@@ -23,3 +23,6 @@ Used Bosch Future Mobility Challenge Traffic Data including 13 classes as:
 # Install Library 
 ```bash
 pip install -r requirements.txt
+```
+# References 
+Mostly based on Ultralytics Train Documents https://docs.ultralytics.com/modes/train/#train-settings
